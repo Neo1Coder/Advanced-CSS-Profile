@@ -16,36 +16,152 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!--Custom CSS-->
-    <link rel="stylesheet" href="./assests/webpage.css">
+    <link rel="stylesheet" href="./assests/style.css">
     <title>Portfoilo Landing Page</title>
 </head>
 
 <body>
 
-    <!--Main Nav Bar-->
-
+    <!--Nav Bar-->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="#" class="navbar-brand">MUSTAFA ALI</a>
 
+        <!--Burger Button dropdown Menu-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="Togglenavigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <ul id="links" class="navbar-nav">
-            <li class="nav-item">
-                <a href="" class="nav-link">ABOUT ME</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">PROJECTS</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">CONTACT</a>
-            </li>
+        <!--Nav Link-->
 
-
-
+        <div class="collapse navbar-collapse justify-content-end" id="navlinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">CONTACT</a>
+                </li>
+        </div>
     </nav>
+
+    <!--Backdrop Image below the Nav bar-->
+    <section class="backdrop">
+
+
+    </section>
+    <main>
+        <section class="profilePic">
+            <img src="./assests/images/P.Pic.jpg" alt="Profile Pic" class="profilePic">
+        </section>
+
+        <!-- About Me Container -->
+        <section class="container" id="aboutMe">
+            <h2 class="container-title">
+                About Me
+            </h2>
+            <div class="container-content">
+                <div class="profile-picture"> </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos asperiores nisi mollitia nemo illum
+                    ullam, saepe cupiditate iste? Voluptatem, molestiae ducimus doloribus eius accusamus inventore
+                    voluptatibus dolore obcaecati mollitia fugit.
+                    Itaque mollitia odit illo ex natus sint minima cumque quae explicabo autem nemo, iure inventore
+                    recusandae, rerum delectus deleniti dignissimos laudantium molestiae vel ab asperiores magnam.
+                    Provident minima sequi earum?
+                    <br>
+                    <br>
+                    I seek a career in which I can apply the skills I've learned in my study of
+                    full-stack web development, and to become an asset to the company in which
+                    I will collaborate with and continue to grow.
+                </p>
+            </div>
+        </section>
+
+        <!-- Container for all the projects-->
+
+
+        <section class="container" id="projects">
+            <h3 class="heading">PROJECTS</h3>
+            <div class="containerLayout">
+                <div class="project1" id="image">
+                    <a href="#" target="#"><img src="#" alt="#" class="#"></a>
+                    <div class="image-title">
+                        <h4> Code Refractor Project</h4>
+                        <p>HTML/CSS</p>
+                        <a href="https://neo1coder.github.io/code-refractor/">GitHub Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerLayout">
+                <div class="project2" id="image">
+                    <a href="#" target="#"><img src="#" alt="#" class="#"></a>
+                    <div class="image-title">
+                        <h4> Project 2</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerLayout">
+                <div class="project3" id="image">
+                    <a href="#" target="#"><img src="#" alt="#" class="#"></a>
+                    <div class="image-title">
+                        <h4> Project 3</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="containerLayout">
+                <div class="project4" id="image">
+                    <a href="#" target="#"><img src="#" alt="#" class="#"></a>
+                    <div class="image-title">
+                        <h4> project 4</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
 
 
 
 
 </body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+    });
+
+
+</script>
 
 </html>
