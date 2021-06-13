@@ -1,21 +1,18 @@
 
 
 
-
-
-
-
+:root {
+    background-color: #88bb8c;
+    font-family: "nunito", sans-serif ;
+}
 
 
 
 body {
 
-    background-color: cornsilk; 
-    font-family:"nunito", sans-serif; 
+    background-color: var(--background-color); 
+    font-family: var(--font-family);
 }
-
-
-
 
 
 #mainNavbar .navbar-brand {
@@ -23,6 +20,8 @@ body {
     color:#EA1C2C;
     font-size: 1.5rem;
     font-weight:100; 
+    border-width: 0px;
+
 
 }
 
@@ -41,34 +40,50 @@ body {
     
 }
 
-
-.profilePic {
-
-
-    display: flex, flex-wrap;
-    position: center;
-    justify-content: center;
+.container {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 40px 0;
     
+    display: flex;
+}
 
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7%;
-    width: 50%;
+/*This will style the titles about me, projects, and contact*/
+.container-title {
+    width: 15%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(primary-font-family);
+    text-align: right;
+    padding-right: 40px;
+    margin-right: 10px;
+    border-right: solid #FDF8F5 4px;
+    color: var(--primary-color);
+}
 
+/*styling container to hold the paragraph and picture*/
+.container-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-    
+.profile-picture {
 
-    border: 3px solid var(--skyblue);
-
-    z-index: -1;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    background-position: center;
 }
 
 
 
 
 .navbar.scrolled {
-    background: rgb(222,192,222);
+    background-color:rgb(156, 216, 156); 
     transition: background 500ms; 
 
 
