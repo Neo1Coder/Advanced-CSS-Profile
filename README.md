@@ -1,5 +1,22 @@
-Description
-The task of this project was to create a personalized portfolio for the purpose of cataloging and displaying future projects. Since There is only one exisiting project placeholders are used to give a more realistic sense of what the finished product will be.
+## Description
+
+The task for this project was to create a personalized portfolio for the purpose of cataloging and displaying current as well as future projects. This page essentially functions like a landing page and would be a way for employers to have access to completed projects as well as allowing me to showcase my skills set.
+
+
+
+## User Story
+
+
+
+
+## Acceptence Criteria
+
+
+
+
+
+
+
 
 Links
 
