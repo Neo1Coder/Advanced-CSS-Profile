@@ -39,4 +39,4 @@ Links
 
 [Git Hub Repo](https://github.com/mus-ali1/Advanced-CSS-Profile)
 
-![website image](./assets/Images/landingPage.png)
+![website image](./assets/Images/landing.png)
