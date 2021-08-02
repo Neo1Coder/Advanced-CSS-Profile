@@ -3,7 +3,10 @@ The task of this project was to create a personalized portfolio for the purpose 
 
 Links
 
-Deployed Webpage:https://neo1coder.github.io/Advanced-CSS-Profile/
-Repository Link: https://github.com/Neo1Coder/Advanced-CSS-Profile
 
-![website image](./assests/images/screenshot-website.png)
+
+[Deployed Link](https://mus-ali1.github.io/Advanced-CSS-Profile/)
+
+[Git Hub Repo](https://github.com/mus-ali1/Advanced-CSS-Profile)
+
+![website image]()
