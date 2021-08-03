@@ -55,6 +55,17 @@ h4 {
     padding-bottom: 25px;
 }
 
+h5   {
+
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    
+
+
+}
+
+
 
 #container-about {
 
@@ -63,6 +74,19 @@ h4 {
     font-style: italic;
 
 }
+
+#skills {
+
+    margin-top: 100px;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 90px;
+    font-style: italic;
+
+
+}
+
+
 
 
 
