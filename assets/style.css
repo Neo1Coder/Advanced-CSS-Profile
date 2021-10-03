@@ -7,6 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "nunito", sans-serif ;
+    
 }
 
 
@@ -15,6 +16,13 @@ body {
 
     background-color: var(--background-color); 
     font-family: var(--font-family);
+}
+
+main {
+
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 25px;
 }
 
 
