@@ -2,7 +2,10 @@
 
 
 :root {
-    background-color: #88bb8c;
+    background-image:url("./Images/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: "nunito", sans-serif ;
 }
 
@@ -23,6 +26,7 @@ body {
     
     
 }
+
 
 
 
