@@ -35,8 +35,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Links
 
 
-[Deployed Link](https://mus-ali1.github.io/Advanced-CSS-Profile/)
+[Deployed Link](https://mus-ali1.github.io/Professional-Portfolio/)
 
-[Git Hub Repo](https://github.com/mus-ali1/Advanced-CSS-Profile)
+[Git Hub Repo](https://github.com/mus-ali1/Professional-Portfolio)
 
 ![website image](./assets/Images/landing-page.png)
